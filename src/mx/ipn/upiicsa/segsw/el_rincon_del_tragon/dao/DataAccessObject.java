@@ -18,9 +18,10 @@ import mx.ipn.upiicsa.segsw.el_rincon_del_tragon.exception.DAOInitializationExce
 public class DataAccessObject {
 	
     private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
-    private static final String URL = "jdbc:mysql://localhost/el_rincon_del_tragon_db?serverTimezone=UTC";
-    private static final String USER = "root";
-    private static final String PASSWORD = "toor";
+    private static final String URL = "jdbc:mysql://bxt2wvzyeocmzdy6hbm5-mysql.services.clever-cloud.com/bxt2wvzyeocmzdy6hbm5?serverTimezone=UTC";
+    private static final String USER = "uy8yai8hbsdmmr91";
+    private static final String PASSWORD = "YsxzFPh4CeRojno6ks6E";
+
 	
 	private Connection connection = null;
 	

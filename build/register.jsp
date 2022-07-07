@@ -23,7 +23,7 @@
     <!--CONTENIDO-->
     <div class="container">
 	  <!-- BACK ARROW -->
-      <a style="display:inline-block; color: black; text-decoration: none; margin: 20px 0px;" href="/el-rincon-del-tragon/"><i class="fas fa-arrow-left fa-1x" style="color: black"></i> Regresar</a>
+      <a style="display:inline-block; color: black; text-decoration: none; margin: 20px 0px;" href="/"><i class="fas fa-arrow-left fa-1x" style="color: black"></i> Regresar</a>
 	 <!--MENSAJES-->
 	 <%@ include file = "messages_panel.jsp" %>
       <!--FORMULARIO REGISTRO-->
@@ -77,7 +77,7 @@
 
     <!--FOOTER-->
     <footer class="bg-light text-center text-lg-start">
-      <a href="/el-rincon-del-tragon/team.jsp" style="text-decoration: none; color: white">
+      <a href="./team.jsp" style="text-decoration: none; color: white">
         <div class="text-center p-3" style="padding: 10px; background-color: black">
           <img src="images/dark_industries_logo.png" alt="dark industries logo" width="150px" style="display: inline-block" />
           <p style="display: inline-block; margin-left: 5px">© Dark Industries</p>

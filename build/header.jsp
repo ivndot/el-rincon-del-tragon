@@ -9,7 +9,7 @@
     <nav class="navbar navbar-default" style="background-color: black; margin-bottom: 0%; border: none; border-radius: 0%">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="/el-rincon-del-tragon">
+          <a class="navbar-brand" href="/">
             <img src="images/ham_icon.png" alt="logo" width="25px" style="display: inline-block" />
             <strong style="color: white">El Rinc&oacute;n Del Trag&oacute;n</strong>
           </a>

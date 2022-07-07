@@ -23,7 +23,7 @@
     <!--CONTENIDO-->
     <div class="container">
       <!-- BACK ARROW -->
-      <a style="display:inline-block; color: black; text-decoration: none; margin: 20px 0px;" href="/el-rincon-del-tragon/"><i class="fas fa-arrow-left fa-1x" style="color: black"></i> Regresar</a>
+      <a style="display:inline-block; color: black; text-decoration: none; margin: 20px 0px;" href="/"><i class="fas fa-arrow-left fa-1x" style="color: black"></i> Regresar</a>
       <!--FORMULARIO AUTENTICACION-->
       <form action="authenticate.controller" method="POST" class="form">
         <div class="form-color"></div>

@@ -77,7 +77,7 @@
 
     <div class="container" style="margin-top: 50px">
        <!-- BACK ARROW -->
-       <a style="color: black; text-decoration: none" href="/el-rincon-del-tragon/search_recipes.controller?criterio="><i class="fas fa-arrow-left fa-1x" style="color: black"></i> Regresar</a>
+       <a style="color: black; text-decoration: none" href="./search_recipes.controller?criterio="><i class="fas fa-arrow-left fa-1x" style="color: black"></i> Regresar</a>
       <!--ALERTA-->
       <div id="alert-rating" class="alert alert-danger" role="alert">
         <p class="alert-link text-center">Inicie sesi&oacute;n para calificar esta receta</p>
@@ -139,7 +139,7 @@
     %>
 
     <!--FOOTER-->
-      <a href="/el-rincon-del-tragon/team.jsp" style="text-decoration: none; color: white">
+      <a href="./team.jsp" style="text-decoration: none; color: white">
         <div class="text-center p-3" style="padding: 10px; background-color: black">
           <img src="images/dark_industries_logo.png" alt="dark industries logo" width="150px" style="display: inline-block" />
           <p style="display: inline-block; margin-left: 5px">© Dark Industries</p>

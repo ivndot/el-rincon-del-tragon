@@ -3,7 +3,7 @@
     
     <!--FOOTER-->
     <footer class="bg-light text-center navbar-fixed-bottom text-lg-start">
-      <a href="/el-rincon-del-tragon/team.jsp" style="text-decoration: none; color: white">
+      <a href="./team.jsp" style="text-decoration: none; color: white">
         <div class="text-center p-3" style="padding: 10px; background-color: black">
           <img src="images/dark_industries_logo.png" alt="dark industries logo" width="150px" style="display: inline-block" />
           <p style="display: inline-block; margin-left: 5px">© Dark Industries</p>
