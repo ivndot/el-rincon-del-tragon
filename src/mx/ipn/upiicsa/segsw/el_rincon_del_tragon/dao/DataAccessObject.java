@@ -18,9 +18,7 @@ import mx.ipn.upiicsa.segsw.el_rincon_del_tragon.exception.DAOInitializationExce
 public class DataAccessObject {
 	
     private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
-    private static final String URL = "jdbc:mysql://localhost/el_rincon_del_tragon_db?serverTimezone=UTC";
-    private static final String USER = "root";
-    private static final String PASSWORD = "toor";
+    private static final String URL = "jdbc:mysql://bxt2wvzyeocmzdy6hbm5-mysql.services.clever-cloud.com:3306/bxt2wvzyeocmzdy6hbm5";
 	
 	private Connection connection = null;
 	
@@ -30,7 +28,7 @@ public class DataAccessObject {
 	public DataAccessObject() throws ClassNotFoundException, SQLException
 	{
 		Class.forName(DRIVER);
-		connection = DriverManager.getConnection(URL, USER, PASSWORD);
+		connection = DriverManager.getConnection(URL, System.getenv("DB_USER"), System.getenv("DB_PASSWORD"));
 		// System.out.println("DataAccessObject.openConnection() - Database connection has been opened");
 	}
 	
