@@ -51,7 +51,7 @@ public class AuthenticateServlet extends HttpServlet implements Servlet {
 
 		System.out.println("AuthenticateUserServlet {referer: " + referer  +"}");
 		// se valida el referar para evitar XSRF
-		if(referer == null || referer.indexOf("http://localhost:8080/el-rincon-del-tragon/") == -1 )
+		if(referer == null || referer.indexOf(Utility.REFERER_URL) == -1 )
 		{
 			request.setAttribute("src", "xsrf");
 			RequestDispatcher rd = request.getRequestDispatcher("main.jsp");

@@ -17,6 +17,7 @@ import mx.ipn.upiicsa.segsw.el_rincon_del_tragon.valueobject.RatingRecipeValueOb
 
 public class Utility 
 {
+	public static String REFERER_URL = "https://el-rincon-del-tragon.onrender.com/el-rincon-del-tragon/";
 	/* ********************************************************************************* *
 	 *                                                                                   *
 	 * ********************************************************************************* */
@@ -85,16 +86,16 @@ public class Utility
 	 * ********************************************************************************* */
 	public static int calculateAverageRating(ArrayList<RatingRecipeValueObject> ratingList) {
 		float average = 0;
-		
+
 		for(RatingRecipeValueObject ratingRecipe: ratingList) {
 			// se itera por cada objeto de la receta
 			// se obtiene su rating y se acumula
 			average += ratingRecipe.getRating();
 		}
-		
+
 		// se saca el promedio y se redondea
 		average = average/ratingList.size();
-		
+
 		return Math.round(average);
 	}
 	
